@@ -1,7 +1,6 @@
 Description
 - This is an assembly program written for the x86 architecture, designed to implement a simple chess game with graphical output. 
 - The program uses a flat memory model and follows the stdcall calling convention, which is commonly used in Windows programming.
-- Below is a breakdown of the key components and functionalities of this program:
 
 Library Inclusions and External Functions
 - The code includes standard C library functions (msvcrt.lib) for basic operations like memory allocation (malloc), setting memory (memset), printing to the console (printf), and exiting the program (exit).
