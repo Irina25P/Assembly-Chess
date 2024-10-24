@@ -10,8 +10,7 @@
 - The .data section declares static data used throughout the program, such as the window title, dimensions for the chessboard area, and initial chess piece placements on the board.
 - Chess pieces are represented by numbers, with specific ranges designated for different types of pieces (e.g., black and white pieces).
 
-# Functionalities:
-
+# Fueatures
 - Displaying chess pieces (afisare_piese) on the board by iterating over the chessboard matrix and drawing each piece using a custom position_macro.
 - Handling user interactions such as selecting and moving chess pieces. This involves determining which square of the chessboard the user has clicked on (patrat procedure) and identifying which piece, if any, is on that square (click_piesa).
 - Checking the validity of a move based on the type of the piece being moved. Different procedures (cal, rege, nebun, turn, pion) implement the movement rules for each type of chess piece (e.g., knight, king, bishop, rook, pawn).
